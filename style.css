@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0;
+    background-color:cadetblue;
+}
+
+.logo img {
+    width: 76px;
+    height: 52px;
+}
+
+.logo {
+    padding: 10px 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: white
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 40px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0 15px;
+    border-color:cadetblue;
+
+}
+
+.btn {
+    font-size: larger;
+    background: cadetblue;
+    border: none;
+    padding: 7px;
+    border-radius: 40px;
+    color: white;
+
+
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Satisfy', 'cursive';
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 li {
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.nav2 li:hover {
+    color: cadetblue;
+    border-radius: 40px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    height: 52.5vh;
+    width: 50vw;
+    padding: 70px 10px;
+}
+
+.box1 img {
+    padding: 0px 10px;
+    width: 251px;
+    height: 239px;
+    cursor: pointer;
+}
+
+.infoContainer {
+    background-color: white;
+    width: 261px;
+    height: 231px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.infoContainer img {
+    border-radius: 20px;
+    width: 250px;
+    height: 225px;
+    margin: -10px;
+}
+
+.box2 {
+    height: 52.5vh;
+    width: 50vw;
+    display: flex;
+}
+
+.contain {
+    display: flex;
+    padding-top: 5px;
+    height: 54vh;
+}
+
+.box3 {
+    height: 52.5vh;
+    width: 25vw;
+    padding: 30px 0;
+}
+
+.box3 img {
+    width: 342px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.box4 img {
+    width: 342px;
+    height: 291px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box4 {
+    height: 52.5vh;
+    width: 25vw;
+    padding: 28px 10px;
+
+}
+
+.container {
+    background-color:cadetblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    flex-basis: min-content;
+
+}
+
+.container2 {
+    width: 50vw;
+    height: 100vh;
+}
+
+.container2 img {
+    width: 46vw;
+    height: 100vh;
+}
+
+.heading {
+
+    color: black;
+    padding: 262px 0px;
+    padding-right: 317px;
+
+}
+
+.btn1 {
+    font-size: 1.5rem;
+    background: #00000091;
+    border: none;
+    padding: 7px;
+    border-radius: 40px;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+
+}
+.cardContainer{
+    width: 100vw;
+    height: 50vh;
+    /* background-color: black; */
+    margin-top: 10px;
+display: flex;
+gap: 5px;
+margin-bottom: 10px;
+}
+.card1{
+    /* background-color: grey; */
+    width: 33vw;
+    height: 50vh;
+    cursor: pointer;
+}
+.card2{
+/* background-color: red; */
+width: 33vw;
+height: 50vh;
+cursor: pointer;
+
+
+}
+.card3{
+    /* background-color:green; */
+    width: 33vw;
+    height: 50vh;
+    cursor: pointer;
+}
+.cardTittle{
+    text-align: center;
+   padding: 150px 0;
+  
+}
+.card1::before{
+    content: "";
+    position: absolute;
+    background: url(/woman-g8132c64d7_640.jpg);
+    height: 52%;
+    width: 33%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.card2::before{
+    content: "";
+    position: absolute;
+    background: url(/phone-wallpaper-g78f3c2ba1_640.jpg);
+    height: 52%;
+    width: 33%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.card3::before{
+    content: "";
+    position: absolute;
+    background: url(/hooded-g13ac875e3_640.jpg);
+    height: 52%;
+    width: 33%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.services{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    padding-top: 7px;
+}
+.shipping{
+    width: 33vw;
+    background-color: whitesmoke;
+margin-right: 5px;
+
+}
+.shipping img{
+    height: 60px;
+    padding: 20px;
+}
+.return{
+    width: 33vw;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.payment{
+    width: 33vw;
+    background-color:whitesmoke;
+}
+
+footer {
+    background: cadetblue;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+@media screen and (max-width: 350px) {
+    nav {
+        width: 629px;
+    }
+    nav ul li {
+    
+        padding: 28px;
+        font-size: 23px;
+    }
+    .logo img {
+        width: 62px;
+        height: 42px;
+    }
+    .search {
+        padding-left: 325px;
+        justify-content: flex-start;
+    }
+  }
